@@ -128,4 +128,4 @@ O objetivo deste projeto é fornecer uma API robusta para:
 
 ## 📜 Licença
 
-Este projeto está sob a [licença MIT](LICENSE).
+Este projeto está sob a licença MIT.
