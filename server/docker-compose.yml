@@ -1,0 +1,12 @@
+services:
+  nestjs-app:
+    container_name: nestjs-app
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app  # Synchronizes local code with the container
+      - /app/node_modules  # Prevents overwriting node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run start:dev
