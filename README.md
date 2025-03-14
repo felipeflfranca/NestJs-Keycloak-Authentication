@@ -89,10 +89,7 @@ O objetivo deste projeto é fornecer uma API robusta para:
         "firstName": "NomeFalso",
         "lastName": "SobrenomeFalso",
         "password": "senhaSegura001",
-        "roles": ["ROLE_VIEW"],
-        "phoneNumber": "11999999999",
-        "document": "000000000",
-        "userType": "MEMBER"
+        "roles": ["ROLE_VIEW"]
       }'
 
 - **Atualizar Usuário**  
@@ -107,10 +104,7 @@ O objetivo deste projeto é fornecer uma API robusta para:
       "firstName": "NomeAtualizado",
       "lastName": "SobrenomeAtualizado",
       "password": "novaSenhaSegura002",
-      "roles": ["ROLE_VIEW"],
-      "phoneNumber": "11988888888",
-      "document": "111111111",
-      "userType": "MEMBER"
+      "roles": ["ROLE_VIEW"]
       }'
 
 
