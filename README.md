@@ -124,8 +124,3 @@ O objetivo deste projeto é fornecer uma API robusta para:
 
   **Nota:** Substitua `{userId}` pelo identificador do usuário a ser excluído.
 
----
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT.
