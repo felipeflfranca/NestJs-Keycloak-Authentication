@@ -1,4 +1,4 @@
-# Nest Keycloak Backend
+# NestJs Keycloak Authentication
 
 Este repositório contém uma aplicação **NestJS** para gerenciamento de usuários, utilizando **Keycloak** como provedor de identidade e **PostgreSQL** como banco de dados. A aplicação oferece endpoints para autenticação, autorização (via JWT) e operações CRUD para usuários, integrados ao Keycloak para controle de papéis (roles).
 
