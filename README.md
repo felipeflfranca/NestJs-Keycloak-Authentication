@@ -73,7 +73,7 @@ O objetivo deste projeto é fornecer uma API robusta para:
 
       curl -X POST http://localhost:3000/auth/refresh \
       -H "Content-Type: application/x-www-form-urlencoded" \
-      -d "refreshToken=seu-refresh-token-fake"
+      -d "refreshToken=seu-refresh-token"
 
 ### Usuários (`/users`)
 
