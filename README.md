@@ -82,12 +82,12 @@ O objetivo deste projeto é fornecer uma API robusta para:
 
       curl -X POST http://localhost:3000/users \
       -H "Content-Type: application/json" \
-      -H "Authorization: Bearer seu_access_token_falso" \
+      -H "Authorization: Bearer seu_access_token" \
       -d '{
         "username": "usuarioFake001",
         "email": "usuario.fake001@example.com",
-        "firstName": "NomeFalso",
-        "lastName": "SobrenomeFalso",
+        "firstName": "Nome",
+        "lastName": "Sobrenome",
         "password": "senhaSegura001",
         "roles": ["ROLE_VIEW"]
       }'
@@ -97,7 +97,7 @@ O objetivo deste projeto é fornecer uma API robusta para:
 
       curl -X PUT http://localhost:3000/users/{userId} \
       -H "Content-Type: application/json" \
-      -H "Authorization: Bearer seu_access_token_falso" \
+      -H "Authorization: Bearer seu_access_token" \
       -d '{
       "username": "usuarioFake002",
       "email": "usuario.fake002@example.com",
