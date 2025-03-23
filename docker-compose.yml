@@ -13,6 +13,7 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./server/db/init:/docker-entrypoint-initdb.d
 
   keycloak:
     image: quay.io/keycloak/keycloak:26.1.2
