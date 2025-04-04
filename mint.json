@@ -1,1 +1,4 @@
-
+{
+  "name": "NestJS Keycloak Authentication",
+  "root": "./docs" 
+}
